@@ -1,6 +1,6 @@
 # notes
 
-Notes app with possibility to set font, color, background color and text allignment.
+Notes app with possibility to set font, color, background color and text alignment.
 
 Backend uses mongodb database with port 27018. You shouldn't have mongodb installed on your system if you have docker. Docker-compose.yaml file is included with back-end.
 
