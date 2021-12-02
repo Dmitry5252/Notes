@@ -1,0 +1,34 @@
+.noteListWrapper {
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.noteList {
+  padding-right: 1rem;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 14rem 14rem 14rem 14rem 14rem;
+  grid-template-rows: 14rem;
+  height: auto;
+  width: 100%;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 850px) {
+  .noteList {
+    grid-template-columns: 14rem 14rem 14rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .noteList {
+    grid-template-columns: 14rem 14rem;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .noteList {
+    grid-template-columns: 14rem 14rem 14rem 14rem;
+  }
+}

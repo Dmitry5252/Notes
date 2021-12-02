@@ -1,0 +1,85 @@
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 13.5rem;
+  height: 100vh;
+  background-color: #262730;
+  position: relative;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 13.75rem;
+  margin-top: 5.5rem;
+
+  .category {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    text-decoration: none;
+
+    img {
+      height: 1.6rem;
+      margin-right: 1.9rem;
+    }
+  }
+}
+
+.createNewNoteButton {
+  background-color: #1d1e24;
+  color: #ffffff;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+
+  img {
+    height: 2rem;
+  }
+}
+
+.createNewNoteButton:hover {
+  background-color: #2d2f38;
+}
+
+@media screen and (max-width: 800px), (max-height: 500px) {
+  .sideNav {
+    width: 3rem;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .categories {
+    margin-top: 1rem;
+    .category {
+      font-size: 0;
+
+      img {
+        margin: 0;
+      }
+    }
+  }
+
+  .createNewNoteButton {
+    height: 2rem;
+    width: 2rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+
+    img {
+      height: 1rem;
+    }
+  }
+}

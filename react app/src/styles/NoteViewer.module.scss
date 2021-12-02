@@ -1,0 +1,66 @@
+.noteViewer {
+  width: calc(100vw - 13.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+  height: 100vh;
+}
+
+.noteView {
+  width: 86%;
+  height: 84%;
+  border-radius: 2rem;
+  position: relative;
+  margin: 0;
+  overflow-y: scroll;
+
+  h1 {
+    padding: 1rem 2rem;
+    margin: 0;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+
+  .text {
+    padding: 1rem 2rem;
+    word-break: break-word;
+    white-space: pre-wrap;
+  }
+}
+
+.bottomBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86%;
+  margin-top: 3%;
+
+  .editButton {
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: #38d39f;
+    color: white;
+    box-shadow: 0 0 9px #38d39f70;
+  }
+}
+
+@media screen and (max-width: 800px), (max-height: 500px) {
+  .noteViewer {
+    width: calc(100vw - 3rem);
+    height: auto;
+
+    .noteView {
+      margin-top: 5vh;
+      height: 80vh;
+    }
+
+    .bottomBar {
+      margin-top: 5vh;
+      margin-bottom: 1rem;
+    }
+  }
+}

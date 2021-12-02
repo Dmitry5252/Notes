@@ -1,0 +1,73 @@
+.loginWrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262730;
+}
+
+.login {
+  padding: 2rem 2rem;
+  background-color: #1f1f1f;
+  border-radius: 0.6rem;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.inputWrapper {
+  input {
+    border: none;
+    border-bottom: 1px solid #8f8f8f;
+    background: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.555);
+    width: 18.75rem;
+    height: 2.2rem;
+  }
+  margin-bottom: 1rem;
+}
+
+.subTitle {
+  color: rgba(177, 177, 177, 0.3);
+}
+
+.validationNotice {
+  color: #fc666f;
+}
+
+.submitButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: #38d39f;
+  color: white;
+  box-shadow: 0 0 9px #38d39f70;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  position: absolute;
+  text-decoration: none;
+  color: #38d39f;
+  width: 5rem;
+  height: 2rem;
+  padding-bottom: 0.2rem;
+  border-radius: 0.8rem;
+  left: calc(100% - 6rem);
+  bottom: calc(100% - 3rem);
+}
+
+.registerLink {
+  width: 10rem;
+  left: calc(100% - 11rem);
+}

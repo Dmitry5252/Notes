@@ -1,0 +1,166 @@
+.noteEditor {
+  width: calc(100vw - 13.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+
+  input {
+    width: 86%;
+    font-size: 1.8rem;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 4.4rem;
+    padding: 1rem 2rem;
+    background: none;
+    background-color: #262730;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    color: white;
+  }
+
+  textarea {
+    width: 86%;
+    font-size: 1.2rem;
+    font-family: "Times New Roman", Times, serif;
+    height: 60%;
+    padding: 1rem 2rem;
+    background: none;
+    background-color: #262730;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    color: white;
+    resize: none;
+    margin-bottom: 2rem;
+  }
+
+  .noteControls {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    align-items: center;
+  }
+
+  .saveButton {
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: #38d39f;
+    color: white;
+    box-shadow: 0 0 9px #38d39f70;
+  }
+
+  .noteFormatting {
+    background-color: #262730;
+    height: 4.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    width: 30rem;
+    align-self: flex-end;
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: white;
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 0.6rem;
+        margin-left: 0.3rem;
+        margin-top: 0.2rem;
+      }
+
+      ul {
+        position: absolute;
+        bottom: 100%;
+        padding: 0;
+        border-radius: 0.5rem;
+        list-style-type: none;
+        background-color: #1d1d24;
+
+        li {
+          padding: 0.5rem;
+        }
+
+        li:hover {
+          background-color: #18191e;
+          border-radius: 0.5rem;
+        }
+      }
+    }
+
+    .fontListButton {
+      width: 9rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .fontSizeButton {
+      width: 2.4rem;
+    }
+
+    .colorPickerButtons {
+      display: flex;
+      width: 3rem;
+      justify-content: space-between;
+    }
+
+    .colorPickerButton {
+      height: 0.625rem;
+      width: 0.625rem;
+      border: 0.125rem solid #4b4a4f;
+      position: relative;
+
+      .colorPicker {
+        position: absolute;
+        bottom: 1rem;
+        right: -3rem;
+        height: 10rem;
+        width: 10rem;
+      }
+    }
+
+    .alignButtons {
+      display: flex;
+    }
+
+    .alignCenterImage {
+      height: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 800px), (max-height: 500px) {
+  .noteEditor {
+    width: calc(100vw - 3rem);
+
+    textArea {
+      height: 20rem;
+    }
+
+    .noteControls {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+
+      .noteFormatting {
+        width: 100%;
+        margin-bottom: 1rem;
+
+        .fontListButton {
+          width: 5rem;
+        }
+      }
+      .saveButton {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
