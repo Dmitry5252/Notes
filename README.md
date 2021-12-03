@@ -36,8 +36,15 @@ npm start
 
 ## Responsive views
 
-![Screen Shot 2021-12-03 at 11 32 38](https://user-images.githubusercontent.com/95356840/144579679-583ecfff-a01b-4d54-9380-da7d13206e14.png)
+<img width=50% src="https://user-images.githubusercontent.com/95356840/144579679-583ecfff-a01b-4d54-9380-da7d13206e14.png" /><img width=50% src="https://user-images.githubusercontent.com/95356840/144579902-a3b82f33-63ea-440c-a6f6-af27e84ca73b.png" />
 
-![Screen Shot 2021-12-03 at 11 34 01](https://user-images.githubusercontent.com/95356840/144579902-a3b82f33-63ea-440c-a6f6-af27e84ca73b.png)
+<img width=50% src="https://user-images.githubusercontent.com/95356840/144579935-e23fa2f9-ecdf-4987-84d6-8fdd3a43f43f.png" />
 
-![Screen Shot 2021-12-03 at 11 32 22](https://user-images.githubusercontent.com/95356840/144579935-e23fa2f9-ecdf-4987-84d6-8fdd3a43f43f.png)
+  
+<img width=30% src="https://user-images.githubusercontent.com/95356840/144581778-dd162fd1-bf11-43f1-973e-36fc6017ab69.png" />   <img width=30% src="https://user-images.githubusercontent.com/95356840/144581775-c30365d6-8476-46df-a156-f5166b6c36b4.png" />   <img width=30% src="https://user-images.githubusercontent.com/95356840/144581779-3f60352e-ce77-44d6-b96b-8c92d1b5f879.png" />
+
+
+
+
+  
+
