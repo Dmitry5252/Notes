@@ -141,6 +141,7 @@
 @media screen and (max-width: 800px), (max-height: 500px) {
   .noteEditor {
     width: calc(100vw - 3rem);
+    padding-top: 2rem;
 
     textArea {
       height: 20rem;
