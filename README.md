@@ -27,8 +27,7 @@ npm start
 ![Note view](https://user-images.githubusercontent.com/95356840/144575245-95b5c84d-1ade-4ae9-bedc-4e4d8dabd90c.png)
 
 ## Note edit
-
-![Note edit](https://user-images.githubusercontent.com/95356840/144575273-8d3aa815-2403-4dcb-98ee-4c346d10818a.png)
+![Note edit](https://user-images.githubusercontent.com/95356840/144585036-6bc362b7-8d43-4140-a8a9-def5057e9980.png)
 
 ## Note with custom formatting
 
@@ -36,15 +35,9 @@ npm start
 
 ## Responsive views
 
-<img width=50% src="https://user-images.githubusercontent.com/95356840/144579679-583ecfff-a01b-4d54-9380-da7d13206e14.png" /><img width=50% src="https://user-images.githubusercontent.com/95356840/144579902-a3b82f33-63ea-440c-a6f6-af27e84ca73b.png" />
+<img width=50% src="https://user-images.githubusercontent.com/95356840/144579679-583ecfff-a01b-4d54-9380-da7d13206e14.png" /><img width=50% src="https://user-images.githubusercontent.com/95356840/144586137-97f19b43-9877-49b2-bb4b-7aa907b4630c.png" />
 
-<img width=50% src="https://user-images.githubusercontent.com/95356840/144579935-e23fa2f9-ecdf-4987-84d6-8fdd3a43f43f.png" />
-
+<img width=50% src="https://user-images.githubusercontent.com/95356840/144588166-2c096252-123a-4ecf-a541-ffaa74c56e75.png" />
   
-<img width=30% src="https://user-images.githubusercontent.com/95356840/144581778-dd162fd1-bf11-43f1-973e-36fc6017ab69.png" />   <img width=30% src="https://user-images.githubusercontent.com/95356840/144581775-c30365d6-8476-46df-a156-f5166b6c36b4.png" />   <img width=30% src="https://user-images.githubusercontent.com/95356840/144581779-3f60352e-ce77-44d6-b96b-8c92d1b5f879.png" />
-
-
-
-
-  
+<img width=30% src="https://user-images.githubusercontent.com/95356840/144581778-dd162fd1-bf11-43f1-973e-36fc6017ab69.png" />   <img width=30% src="https://user-images.githubusercontent.com/95356840/144586579-b54d7b20-9c54-4367-8753-757eef186cbd.png" />   <img width=30% src="https://user-images.githubusercontent.com/95356840/144586641-66479365-b208-4e0e-88d6-c5b4eda4ccbe.png" />
 
