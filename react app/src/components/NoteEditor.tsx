@@ -25,7 +25,7 @@ const fontList = [
 
 const fontSizeList = [8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72];
 
-const noteTemplate = { body: { title: "", text: "" }, style: { fontFamily: `"Times New Roman", Times, serif`, fontSize: "1.2rem", color: "rgba(255, 255, 255, 1)", backgroundColor: "rgba(38, 39, 48, 1)", textAlign: "left" } };
+const noteTemplate = { body: { title: "", text: "" }, style: { fontFamily: `"Times New Roman", Times, serif`, fontSize: "1.2rem", color: "rgba(255, 255, 255, 1)", backgroundColor: "rgba(38, 39, 48, 1)", textAlign: "left" } as React.CSSProperties };
 
 const NoteEditor = () => {
   const dispatch = useDispatch();
@@ -58,8 +58,8 @@ const NoteEditor = () => {
   window.addEventListener("click", hideAllMenus);
   return (
     <div className={style.noteEditor}>
-      <input value={note.body.title} onChange={(e) => setNote({ ...note, body: { ...note.body, title: e.target.value } })} placeholder="Title" />
-      <textarea value={note.body.text} onChange={(e) => setNote({ ...note, body: { ...note.body, text: e.target.value } })} style={note.style as React.CSSProperties} placeholder="Text" />
+      <input value={note.body.title} onChange={(e) => setNote({ ...note, body: { ...note.body, title: e.target.value } })} style={{ fontFamily: note.style.fontFamily, color: note.style.color, backgroundColor: note.style.backgroundColor, textAlign: note.style.textAlign }} placeholder="Title" />
+      <textarea value={note.body.text} onChange={(e) => setNote({ ...note, body: { ...note.body, text: e.target.value } })} style={note.style} placeholder="Text" />
       <div className={style.noteControls}>
         <button
           onClick={() => {
@@ -106,7 +106,7 @@ const NoteEditor = () => {
             }}
             className={style.fontSizeButton}
           >
-            {+note.style.fontSize.slice(0, note.style.fontSize.indexOf("rem")) * 10}
+            {note.style.fontSize && +(note.style.fontSize as string).slice(0, (note.style.fontSize as string).indexOf("rem")) * 10}
             <img alt="Choose font size" src={arrowDownImage} />
             {showFontSizeList && (
               <ul>

@@ -15,7 +15,7 @@ const NoteViewer = () => {
   if (note) {
     return (
       <div className={style.noteViewer}>
-        <pre style={note.style as React.CSSProperties} className={style.noteView}>
+        <pre style={note.style} className={style.noteView}>
           <h1>{note.body.title}</h1>
           <div className={style.text}>{note.body.text}</div>
         </pre>

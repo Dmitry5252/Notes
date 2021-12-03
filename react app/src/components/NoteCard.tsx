@@ -15,7 +15,7 @@ const NoteCard = ({ note, deleted }: { note: note; deleted?: boolean }) => {
   const dispatch = useDispatch();
   const date = new Date(note.date!);
   return (
-    <div onClick={() => navigate(`/note/${note._id}`)} style={{ ...note.style, fontSize: "1.2rem", textAlign: "left" } as React.CSSProperties} className={style.noteCard}>
+    <div onClick={() => navigate(`/note/${note._id}`)} style={{ ...note.style, fontSize: "1.2rem", textAlign: "left" }} className={style.noteCard}>
       <h2>{note.body.title}</h2>
       <div className={style.text}>{note.body.text}</div>
       <div className={style.bottomBar}>

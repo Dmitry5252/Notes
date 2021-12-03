@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { getNotesRequest, updateNoteRequest, deleteNoteRequest } from "./notesApi";
 import { RootState } from "../../app/store";
 import axios from "axios";
+import React from "react";
 
 export interface note {
   date?: string;
@@ -12,13 +13,7 @@ export interface note {
     title: string;
     text: string;
   };
-  style: {
-    fontFamily: string;
-    fontSize: string;
-    color: string;
-    backgroundColor: string;
-    textAlign: string;
-  };
+  style: React.CSSProperties;
 }
 
 interface notesState {
