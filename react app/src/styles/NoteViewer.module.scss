@@ -55,7 +55,7 @@
 
     .noteView {
       margin-top: 5vh;
-      height: 80vh;
+      height: min(60vh, 60vw);
     }
 
     .bottomBar {
